@@ -1,0 +1,76 @@
+SOLUTION_RAW                 1 
+  -temp                      43
+  -pressure                  1
+  -total_h                   111.07699161482
+  -total_o                   55.794135816092
+  -cb                        1.4060697051121e-12
+  -density                   0.99996953563061
+  -totals
+    C(4)                     0.092935171757209
+    Ca                       0.02271937990248
+    Cl                       0.023187849080344
+    Mg                       0.0097311395100504
+    Na                       0.041944384779274
+    S(6)                     0.009313625968638
+  -pH                        6.5
+  -pe                        4
+  -mu                        0.14807115904906
+  -ah2o                      0.99679409723128
+  -mass_water                1
+  -soln_vol                  1.0090508863716
+  -total_alkalinity          0.065030322585308
+  -activities
+    C(4)                     -5.0362852817711
+    Ca                       -2.0966263757965
+    Cl                       -1.768688956666
+    E                        -4
+    Mg                       -2.533996619422
+    Na                       -1.4982379051349
+    S(6)                     -2.7546833702598
+  -gammas
+    CO2                      0.0094544831147384
+    CO3-2                    -0.66781890545319
+    Ca+2                     -0.44987509654723
+    Cl-                      -0.13394942173948
+    H+                       -0.13032691769138
+    HCO3-                    -0.13020169926405
+    HSO4-                    -0.12557866294711
+    Mg+2                     -0.52082849068342
+    MgOH+                    -0.12331798607476
+    Na+                      -0.12091173388473
+    OH-                      -0.19105792331665
+    SO4-2                    -0.7237966393665
+GAS_PHASE_RAW                1 
+  # GAS_PHASE_MODIFY candidate identifiers #
+  -type                      0
+  -total_p                   1
+  -volume                    22.809000015259
+  -component                 CO2(g)
+    # GAS_PHASE_MODIFY candidate identifiers #
+    -moles                   0.88328602466461
+    # GAS_PHASE_MODIFY candidate identifiers with new_def=true #
+    -p_read                  1
+    # GasComp workspace variables #
+    -initial_moles           0
+  -component                 H2O(g)
+    # GAS_PHASE_MODIFY candidate identifiers #
+    -moles                   0
+    # GAS_PHASE_MODIFY candidate identifiers with new_def=true #
+    -p_read                  0
+    # GasComp workspace variables #
+    -initial_moles           0
+  # GAS_PHASE_MODIFY candidate identifiers with new_def=true #
+  -new_def                   0
+  -solution_equilibria       0
+  -n_solution                -999
+  -temperature               316.15
+  # GasPhase workspace variables #
+  -total_moles               0.88328602466461
+  -v_m                       25.82289244746
+  -pr_in                     1
+  -totals                    
+REACTION_TEMPERATURE_RAW     1 
+  -count_temps               130
+  -equal_increments          1
+  -temps                     
+    43 45 
