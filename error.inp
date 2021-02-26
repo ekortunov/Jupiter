@@ -1,76 +1,83 @@
 SOLUTION_RAW                 1 
-  -temp                      43
+  -temp                      14.199999809265
   -pressure                  1
-  -total_h                   111.07699161482
-  -total_o                   55.794135816092
-  -cb                        1.4060697051121e-12
-  -density                   0.99996953563061
+  -total_h                   111.08259850911
+  -total_o                   55.804054763572
+  -cb                        -1.5612982911736e-13
+  -density                   1.0059339716469
   -totals
-    C(4)                     0.092935171757209
-    Ca                       0.02271937990248
-    Cl                       0.023187849080344
-    Mg                       0.0097311395100504
-    Na                       0.041944384779274
-    S(6)                     0.009313625968638
-  -pH                        6.5
+    C(4)                     0.11340033948459
+    Ca                       0.0036334172971076
+    Cl                       0.04595948259556
+    Mg                       0.0016142294616146
+    Na                       0.1061139088992
+    S(6)                     0.00020999004522827
+  -pH                        6.5599999427795
   -pe                        4
-  -mu                        0.14807115904906
-  -ah2o                      0.99679409723128
+  -mu                        0.1220901788352
+  -ah2o                      0.99543475106337
   -mass_water                1
-  -soln_vol                  1.0090508863716
-  -total_alkalinity          0.065030322585308
+  -soln_vol                  1.0044980686854
+  -total_alkalinity          0.070229739730784
   -activities
-    C(4)                     -5.0362852817711
-    Ca                       -2.0966263757965
-    Cl                       -1.768688956666
+    C(4)                     -5.1008352190493
+    Ca                       -2.9293550161069
+    Cl                       -1.4598700660705
     E                        -4
-    Mg                       -2.533996619422
-    Na                       -1.4982379051349
-    S(6)                     -2.7546833702598
+    Mg                       -3.374177881686
+    Na                       -1.0772144949838
+    S(6)                     -4.2923778750878
   -gammas
-    CO2                      0.0094544831147384
-    CO3-2                    -0.66781890545319
-    Ca+2                     -0.44987509654723
-    Cl-                      -0.13394942173948
-    H+                       -0.13032691769138
-    HCO3-                    -0.13020169926405
-    HSO4-                    -0.12557866294711
-    Mg+2                     -0.52082849068342
-    MgOH+                    -0.12331798607476
-    Na+                      -0.12091173388473
-    OH-                      -0.19105792331665
-    SO4-2                    -0.7237966393665
+    CO2                      0.0085136499416971
+    CO3-2                    -0.58179211341637
+    Ca+2                     -0.48967029545153
+    Cl-                      -0.12224519689703
+    H+                       -0.15247439574651
+    HCO3-                    -0.059070316750252
+    HSO4-                    -0.11626342076381
+    Mg+2                     -0.58148640098313
+    MgOH+                    -0.13274971050151
+    Na+                      -0.10298680784155
+    OH-                      -0.13425215259402
+    SO4-2                    -0.61457388707575
 GAS_PHASE_RAW                1 
   # GAS_PHASE_MODIFY candidate identifiers #
   -type                      0
   -total_p                   1
-  -volume                    22.809000015259
+  -volume                    0.591000020504
   -component                 CO2(g)
-    # GAS_PHASE_MODIFY candidate identifiers #
-    -moles                   0.88328602466461
-    # GAS_PHASE_MODIFY candidate identifiers with new_def=true #
-    -p_read                  1
-    # GasComp workspace variables #
-    -initial_moles           0
-  -component                 H2O(g)
     # GAS_PHASE_MODIFY candidate identifiers #
     -moles                   0
     # GAS_PHASE_MODIFY candidate identifiers with new_def=true #
-    -p_read                  0
+    -p_read                  0.97
+    # GasComp workspace variables #
+    -initial_moles           0
+  -component                 Mtg(g)
+    # GAS_PHASE_MODIFY candidate identifiers #
+    -moles                   0
+    # GAS_PHASE_MODIFY candidate identifiers with new_def=true #
+    -p_read                  0.03
+    # GasComp workspace variables #
+    -initial_moles           0
+  -component                 Ntg(g)
+    # GAS_PHASE_MODIFY candidate identifiers #
+    -moles                   0
+    # GAS_PHASE_MODIFY candidate identifiers with new_def=true #
+    -p_read                  nan
     # GasComp workspace variables #
     -initial_moles           0
   # GAS_PHASE_MODIFY candidate identifiers with new_def=true #
   -new_def                   0
   -solution_equilibria       0
   -n_solution                -999
-  -temperature               316.15
+  -temperature               287.34999980927
   # GasPhase workspace variables #
-  -total_moles               0.88328602466461
-  -v_m                       25.82289244746
+  -total_moles               0
+  -v_m                       0
   -pr_in                     1
   -totals                    
 REACTION_TEMPERATURE_RAW     1 
-  -count_temps               130
-  -equal_increments          1
+  -count_temps               1
+  -equal_increments          0
   -temps                     
-    43 45 
+    15 
